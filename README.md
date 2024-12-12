@@ -57,7 +57,8 @@ class Calculator(QMainWindow):
             current_text = self.display.text()
             self.display.setText(current_text + text)
 
-# Alkalmazás futtatása
+#alkalmazas futtatás
+
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     window = Calculator()
